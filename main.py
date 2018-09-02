@@ -47,7 +47,7 @@ def sendEmail(link):
 def monitor(link):
     try:
         with session as s:
-            r = s.get(link)
+            r = s.get(link, timeout=10)
             r.raise_for_status()
 
             tree = etree.HTML(r.content)
