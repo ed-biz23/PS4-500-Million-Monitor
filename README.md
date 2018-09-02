@@ -1,6 +1,6 @@
 # PS4-500-Million-Monitor
 
-Monitors GameStop, Walmart, Bestbuy and Target for specific products. When the products become available, your default browser browser will open the link on the the new tab.
+Monitors GameStop, Walmart, Bestbuy, BhPhoto and Target for specific products. When the products become available, your default browser browser will open the link on the the new tab.
 
 # Requirements:
 <ol>
