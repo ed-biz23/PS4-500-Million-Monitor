@@ -17,5 +17,11 @@ Monitors GameStop, Walmart, Bestbuy and Target for specific products. When the p
 
 # Run:
 To run the script cd to the path and type python3 main.py or python main.py based on your operating system.
-
 To add new links, just add the url on newline in links.txt (make sure there's no empty newline space)
+
+# Updated
+Add your gmail email and password inside main.py
+```
+email = 'your@gmail.com'
+password = 'yourpassword'
+```
