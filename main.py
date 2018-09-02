@@ -38,7 +38,7 @@ def sendEmail(link):
         mailserver.ehlo()
         mailserver.login(email, password)
 
-        mailserver.sendmail(msg['From'], msg['From'], msg.as_string())
+        mailserver.sendmail(email, email, msg.as_string())
 
         mailserver.quit()
     except Exception as e:
