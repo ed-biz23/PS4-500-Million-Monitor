@@ -23,7 +23,9 @@ To run the script cd to the path and type python3 main.py or python main.py base
 To add new links, just add the url on newline in links.txt (make sure there's no empty newline space)
 
 # Updated
-Add your gmail email and password inside main.py
+Add your gmail email and password inside main.py 
+If any issue with gmail security, please follow this https://support.google.com/accounts/answer/6009563
+
 ```
 email = 'your@gmail.com'
 password = 'yourpassword'
