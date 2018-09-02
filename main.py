@@ -7,8 +7,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 ###### Enter gmail and password for email notifications ######
-email = 'your@gmail.com'
-password = 'yourpassword'
+email = ''
+password = ''
 ##############################################################
 
 session = requests.session()
