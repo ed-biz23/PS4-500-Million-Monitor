@@ -13,7 +13,9 @@ Monitors GameStop, Walmart, Bestbuy and Target for specific products. When the p
   <li>Open a terminal or shell window in the project's directory</li>
   <li>Run the following command</li>
 </ol>
-<code>pip3 install -r requirements.txt</code>
+```
+pip3 install -r requirements.txt
+```
 
 # Run:
 To run the script cd to the path and type python3 main.py or python main.py based on your operating system.
