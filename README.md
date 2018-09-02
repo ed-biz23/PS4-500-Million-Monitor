@@ -13,6 +13,7 @@ Monitors GameStop, Walmart, Bestbuy and Target for specific products. When the p
   <li>Open a terminal or shell window in the project's directory</li>
   <li>Run the following command</li>
 </ol>
+
 ```
 pip3 install -r requirements.txt
 ```
