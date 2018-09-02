@@ -55,7 +55,7 @@ def monitor(link):
                 oos = False if 'Add' in tree.xpath('/html/body/div[1]/div/div[1]/div/div[2]/div/div/div[4]/div[4]/div[2]/div[1]/div/div/div/div[10]/div/div/button/text()')[0] \
                     else True
             elif 'gamestop' in link:
-                oos = False if tree.xpath('//div[@class="button qq"]') else False
+                oos = False if tree.xpath('//div[@class="button qq"]') else True
             elif 'bestbuy' in link:
                 oos = True if 'Sold' in tree.xpath('//*[@id="priceblock-wrapper"]/div[2]/script/text()')[0] else False
             elif 'target' in link:
