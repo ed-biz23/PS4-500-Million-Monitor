@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 ###### Enter gmail and password for email notifications ######
-email = 'your@gmail,com'
+email = 'your@gmail.com'
 password = 'yourpassword'
 ##############################################################
 
@@ -70,7 +70,8 @@ def monitor(link):
                 if pushNotification:
                     print(getDatetime(), 'In Stock: {}'.format(link))
                     webbrowser.open(link)
-                    sendEmail(link)
+                    if email and password:
+                        sendEmail(link)
     except Exception as e:
         print(getDatetime(), e)
 
